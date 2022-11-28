@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="/revision/unit4/home.html">Home</a>
+        <a href="/revision/unit4/dashboard.html">Dashboard</a>
+        <a href="/revision/unit4/mybooks.html">My Books</a>
+        <a href="/revision/unit4/bookmark.html">Bookmark</a>
+
+    </div>
+    <div>
+        <h1>Sort</h1>
+        <select name="" id="sortInput">
+            <option value="lowtohigh">Low to High</option>
+            <option value="hightolow">High to low</option>
+        </select>
+        <table>
+            <thead>
+                <tr>
+                    <th>Book Name</th>
+                    <th>Author Name</th>
+                    <th>Book Decription</th>
+                    <th>Date</th>
+                    <th>Category</th>
+                    <th>Price</th>
+
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+
+            </tbody>
+        </table>
+    </div>
+</body>
+<script src="./dashboard.js"></script>
+</html>
